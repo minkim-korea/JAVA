@@ -19,8 +19,8 @@ public class C0728_05 {
 			ss[i].eng = scan.nextInt();
 			System.out.println("수학점수입력");		   	
 			ss[i].math = scan.nextInt();
-			ss[i].total = ss[i].kor + ss[i].eng + ss[i].math;
-			ss[i].avg = ss[i].total / 3.0;
+			ss[i].stuTotal();
+			ss[i].stuAvg();
 			
 		}
 //		ss[0] = new StuScore();// 객체선언
