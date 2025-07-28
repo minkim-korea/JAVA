@@ -5,22 +5,12 @@ public class C0728_01 {
 
 	// 메소드
 	public static void main(String[] args) {
-		
-		
-		//객체선언해서 사용 
-		//홍길동 tv생성 
+
+		// 객체선언해서 사용
+		// 홍길동 tv생성
 		Tv t = new Tv();
-	     System.out.println(t.channel);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println(t.channel);
+
 //		// Tv라는 프로그램을 구성 -홍길동
 //		String color = "white";
 //		boolean power = false;
