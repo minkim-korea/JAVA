@@ -10,11 +10,17 @@ public class C0728_02 {
 		t.channel = 7;
 		System.out.printf("색상:%s 채널:%d", t.color, t.channel);
 		System.out.println();
-   //t2 생성해서 , white 5
-		Tv t2 =new Tv();
-		t.color = "white";
-		t.channel = 5;
-		System.out.printf("색상:%s 채널:%d", t.color, t.channel);
+		// t2 생성해서 , white 5
+		Tv t2 = new Tv();
+		t2.color = "white";
+		t2.channel = 5;
+		System.out.printf("색상:%s 채널:%d", t2.color, t2.channel);// 5
+		System.out.println();
+		
+		t2 =t;
+		System.out.println("t2: "+t2.channel);// 7
+        t.channel=1;
+        System.out.println("t2: "+t2.channel);//1 
 	}
 
 }
