@@ -1,0 +1,12 @@
+/.metadata/
+# Eclipse junk
+*.class
+*.log
+*.settings/
+bin/
+target/
+.project
+.classpath
+
+# VSCode junk
+.vscode/
