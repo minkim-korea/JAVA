@@ -1,7 +1,13 @@
 
 public class C0729_03 {
 
+	
 	public static void main(String[] args) {
+		Card c =new Card(); //new 할때 자리를만들어줌 
+		System.out.println(c.number);
+		
+		
+		
 		// TODO Auto-generated method stub
 ////    int a= 10; int a = 5 ; //동일 이름안됨
 //		//인스턴스 -객체선언후 사용 
@@ -16,33 +22,33 @@ public class C0729_03 {
 //        long result =MyMath.add(100,50);// 클래스 메소드 =객체선언없이사용 클래스명.메소드명
 //        System.out.println(result);
        
-		System.out.println(1);
-		System.out.println("2");
-		System.out.println('3');
-		System.out.println(false);
-	}
-		static void add(int a, String b) {
-			System.out.println(a); 
-			System.out.println(b); 
-			
-		}
-		
-		static void add(int a) {
-			System.out.println(a); 			
-		}
-		
-		static void add(char a) {
-			System.out.println(a); 			
-		}
-		static void add(String a) {
-			System.out.println(a); 			
-		}
-		
-		static void add(boolean a) {
-			System.out.println(a); 			
-		}
-		
-		
+//		System.out.println(1);
+//		System.out.println("2");
+//		System.out.println('3');
+//		System.out.println(false);
+//	}
+//		static void add(int a, String b) {
+//			System.out.println(a); 
+//			System.out.println(b); 
+//			
+//		}
+//		
+//		static void add(int a) {
+//			System.out.println(a); 			
+//		}
+//		
+//		static void add(char a) {
+//			System.out.println(a); 			
+//		}
+//		static void add(String a) {
+//			System.out.println(a); 			
+//		}
+//		
+//		static void add(boolean a) {
+//			System.out.println(a); 			
+//		}
+//		
+//		
 	
-
+	}
 }
