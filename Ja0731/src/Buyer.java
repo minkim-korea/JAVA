@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Buyer {
 
@@ -8,8 +9,10 @@ public class Buyer {
 	int money ;//보유금액 
 	int bonusPoint;//보너스포인트
 	
-	Product[] cart =new Product[10]; //산목록넣기 
-	int i;//cart
+//	Product[] cart =new Product[10]; //산목록넣기
+//	Vector list2 =new Vector();//객체배열-컬렉션 :예전버전
+	ArrayList list =new ArrayList();//객체배열-컬렉션:최근버전
+//	int i;//cart
 	Buyer(){}
 	
 	Buyer(String id,String name, int money, int bonusPoint){
@@ -21,7 +24,8 @@ public class Buyer {
 	void buy(Product t) {
 		money -=t.price;
 		bonusPoint +=t.bonusPoint;
-	    cart[i++] = t;
+		list.add(t);//컬렉션 추가 
+//	    cart[i++] = t;
 	    
 	}
 }
