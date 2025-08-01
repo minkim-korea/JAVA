@@ -23,9 +23,9 @@ public class C0801_05 {
 		double avg= Double.parseDouble(title[6]);
 		//객체선언
 		Student stu = new Student(stuNo,name,kor,eng,math);
-		System.out.printf("%d %s %d %d %d %d %f \t",stu.getStuNo(),stu.getName(),stu.getKor(),stu.getEng(),stu.getMath(),stu.getTotal(),stu.getAvg());
 		String[] title1 = { "번호", "이름", "국어", "영어", "수학", "합계", "평균" };
-		System.out.println(Arrays.toString(title));
+		System.out.println(Arrays.toString(title1));
+		System.out.printf("%d\t%s\t %d\t %d\t %d\t %d\t %.2f \t",stu.getStuNo(),stu.getName(),stu.getKor(),stu.getEng(),stu.getMath(),stu.getTotal(),stu.getAvg());
 
 //	 //trim 빈공백제거 왼쪽오른쪽공백만(사이공백안됨)
 //		String str ="   abc    c";
