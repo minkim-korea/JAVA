@@ -1,12 +1,47 @@
+import java.util.ArrayList;
 
 public class C0801_06 {
 
 	public static void main(String[] args) {
+//		wrapper 클래스 8가지 기본타입의 객체타입을 말함.  
+		//자바 - 객체지향언어 ,
+		//boolean ,char, byte, short, int, long, float, double -객체가아님 .
+	    ArrayList list = new ArrayList()	;//객체만넣을수있음 
+	    int a = 10 ;//기본타입 
+	    list.add(a); //가능함. ->자동으로 객체형변환시켜줌 int ->integer 형변환 
+	    System.out.println(list.get(0));
+	    
+	Student s = new Student(1,"홍길동");
+	System.out.println(s.getName());
+     list.add(s);
+	System.out.println( ((Student)list.get(1)).getName());
 		
 		
 		
 		
 		
+		
+		// Math 클래스
+//
+//		int a = 100;
+//		int b = 50;
+//		int c = 90;
+//		// 최대값을 출력하시오.
+//		System.out.println(Math.max(a, Math.max(b, c)));
+//		System.out.println(Math.min(a, Math.min(b, c)));
+
+//   랜덤메소드
+//		Math.random();
+		// 반올림
+//		Math.round(0);
+		// 버림
+//		Math.floor(0);
+		// 올림
+//		Math.ceil(0);
+//		절대값
+	    // Math.abs(a);
+// 		System.out.println(Math.pow(10, 3));
+
 		
 		
 		
