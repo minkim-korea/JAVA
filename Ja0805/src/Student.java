@@ -1,6 +1,6 @@
 
 public class Student {
-	private static int count;
+	static int count;
 	private int no;
 	private String name;
 	private int kor;
