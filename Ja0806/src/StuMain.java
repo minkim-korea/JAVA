@@ -47,12 +47,6 @@ public class StuMain {
 			case 6 : //이름정렬 
 			   stuDeck.sort_name(list);
                 		break;
-			case 7 : 
-				stuDeck.sort_total(list);
-				break;
-			case 8: 
-				stuDeck.sort_no(list);
-				break;
 			case 9: //파일저장 - true:이어쓰기, false:덮어쓰기
 				stuDeck.stu_fileWrite(list);
 				break;
