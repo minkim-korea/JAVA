@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class StuMain {
@@ -41,8 +42,19 @@ public class StuMain {
 			case 4: //학생성적삭제
 				stuDeck.stu_delete(list);
 				break;
-				
-			case 7: //파일저장 - true:이어쓰기, false:덮어쓰기
+			case 5: //등수처리 
+				stuDeck.stu_rank(list);
+				break;
+			case 6 : //이름정렬 
+			   stuDeck.sort_name(list);
+                		break;
+			case 7 : 
+				stuDeck.sort_total(list);
+				break;
+			case 8: 
+				stuDeck.sort_no(list);
+				break;
+			case 9: //파일저장 - true:이어쓰기, false:덮어쓰기
 				stuDeck.stu_fileWrite(list);
 				break;
 			case 0:
